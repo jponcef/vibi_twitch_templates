@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css?family=Gorditas");
+@import url("https://fonts.googleapis.com/css?family=Kurale");
+
+/** Agrega la fuente 'Gorditas' a los autores de los mensajes de chat **/
+.simplebar-scroll-content {
+  font-family: "Gorditas";
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 1.6;
+}
+
+/** Agrega la fuente 'Kurale' al texto de los mensajes de chat **/
+.simplebar-scroll-content .text-fragment {
+  font-family: "Kurale";
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 1.6;
+}
+
+.chat-input,
+.chat-room__notifications,
+.chat-room__viewer-card,
+.hMQljH,
+.stream-chat-header,
+.bMXbNC,
+.fYQDgF,
+[data-a-target="chat-welcome-message"] {
+  display: none !important;
+}
+
+body {
+  color: #ffffff !important;
+  margin: 0 auto !important;
+  overflow: hidden !important;
+  text-shadow: -1px -1px 1px #000000, -1px 1px 1px #000000, 1px -1px 1px #000000,
+    1px 1px 1px #000000 !important;
+}
+
+/** Agrega fondo transparente **/
+html,
+body,
+.room-selector,
+.room-selector__header,
+.twilight-minimal-root,
+.tw-root--theme-light,
+.popout-chat-page,
+.chat-room,
+.tw-c-background-alt,
+.chat-container,
+.ember-chat-container {
+  background: rgba(0, 0, 0, 0) !important;
+  background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.hDgGYp {
+  display: none !important;
+} /** También borraba otro elemento pero no me acuerdo **/
+.iwRBzz {
+  display: none !important;
+} /** En principio creo que era para borra otro element, habrá que buscarlo **/
+
+.jbmPmA {
+  display: none !important;
+} /** Creo que borraba los iconos **/
+
+/** Agrega animación de fadeout para los elementos de mensajes identificados por la clase .cwtKyw **/
+.cwtKyw {
+  animation: fadein 20s ease-in-out forwards;
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 100;
+  }
+  100% {
+    opacity: 0%;
+  }
+}

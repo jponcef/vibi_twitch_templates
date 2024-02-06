@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css?family=Gorditas");
+@import url("https://fonts.googleapis.com/css?family=Kurale");
+
+.simplebar-scroll-content {
+  font-family: "Gorditas";
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 1.6;
+}
+.simplebar-scroll-content .text-fragment {
+  font-family: "Kurale";
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 1.6;
+}
+
+.chat-input,
+.chat-room__notifications,
+.chat-room__viewer-card,
+.hMQljH,
+.stream-chat-header,
+.bMXbNC,
+.fYQDgF,
+[data-a-target="chat-welcome-message"] {
+  display: none !important;
+}
+
+body {
+  color: #ffffff !important;
+  margin: 0 auto !important;
+  overflow: hidden !important;
+  text-shadow: -1px -1px 1px #000000, -1px 1px 1px #000000, 1px -1px 1px #000000,
+    1px 1px 1px #000000 !important;
+}
+
+html,
+body,
+.room-selector,
+.room-selector__header,
+.twilight-minimal-root,
+.tw-root--theme-light,
+.popout-chat-page,
+.chat-room,
+.tw-c-background-alt,
+.chat-container,
+.ember-chat-container {
+  background: rgba(0, 0, 0, 0) !important;
+  background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.hDgGYp {
+  display: none !important;
+}
+.iwRBzz {
+  display: none !important;
+}
+.jbmPmA {
+  display: none !important;
+}
+
+/** Intenta hacer que los mensajes salgan siempre desde arriba **/
+.chat-scrollable-area__message-container {
+  display: flex;
+  flex-direction: column-reverse;
+}
