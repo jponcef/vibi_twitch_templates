@@ -65,7 +65,7 @@ body,
 
 /** Agrega animación de fadeout para los elementos de mensajes identificados por la clase .cwtKyw **/
 .cwtKyw {
-  animation: fadein 20s ease-in-out forwards;
+  animation: fadein 60s ease-in-out forwards;
 }
 
 @keyframes fadein {
