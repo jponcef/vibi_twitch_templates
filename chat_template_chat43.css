@@ -63,13 +63,17 @@ body,
   display: none !important;
 } /** Creo que borraba los iconos **/
 
+.simplebar-scrollbar {
+  display: none !important;
+}
+
+.chat-line__status {
+  display: none !important;
+}
+
 /** Agrega animación de fadeout para los elementos de mensajes identificados por la clase .cwtKyw **/
 .cwtKyw {
   animation: fadein 60s ease-in-out forwards;
-}
-
-.simplebar-scrollbar {
-  display: none !important;
 }
 
 @keyframes fadein {
