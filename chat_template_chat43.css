@@ -68,6 +68,10 @@ body,
   animation: fadein 60s ease-in-out forwards;
 }
 
+.simplebar-scrollbar {
+  display: none !important;
+}
+
 @keyframes fadein {
   0% {
     opacity: 100;

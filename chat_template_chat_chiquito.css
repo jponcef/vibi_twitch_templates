@@ -58,6 +58,10 @@ body,
   display: none !important;
 }
 
+.simplebar-scrollbar {
+  display: none !important;
+}
+
 /** Intenta hacer que los mensajes salgan siempre desde arriba **/
 .chat-scrollable-area__message-container {
   display: flex;
