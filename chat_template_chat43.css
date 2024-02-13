@@ -95,3 +95,16 @@ body,
 .user-notice-line {
   display: none !important;
 }
+
+.chat-line__message {
+  animation: fadein 60s ease-in-out forwards;
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 100;
+  }
+  100% {
+    opacity: 0%;
+  }
+}
