@@ -10,7 +10,8 @@
 }
 
 /** Agrega la fuente 'Kurale' al texto de los mensajes de chat **/
-.simplebar-scroll-content .text-fragment {
+/** Permite ver iconos **/
+.text-fragment:not(.chat-line__message--emote-button) {
   font-family: "Kurale";
   font-weight: 700;
   font-size: 30px;
@@ -52,35 +53,45 @@ body,
   background-color: rgba(0, 0, 0, 0) !important;
 }
 
+/** También borraba otro elemento pero no me acuerdo **/
 .hDgGYp {
   display: none !important;
-} /** También borraba otro elemento pero no me acuerdo **/
+}
+
+/** En principio creo que era para borra otro element, habrá que buscarlo **/
 .iwRBzz {
   display: none !important;
-} /** En principio creo que era para borra otro element, habrá que buscarlo **/
-
-.jbmPmA {
-  display: none !important;
-} /** Creo que borraba los iconos **/
+}
 
 .simplebar-scrollbar {
   display: none !important;
+}
+
+/** Intenta hacer que los mensajes salgan siempre desde arriba **/
+.chat-scrollable-area__message-container {
+  flex-direction: column-reverse;
 }
 
 .chat-line__status {
   display: none !important;
 }
 
-/** Agrega animación de fadeout para los elementos de mensajes identificados por la clase .cwtKyw **/
-.cwtKyw {
-  animation: fadein 60s ease-in-out forwards;
+/** Borrar los anuncios de raid por ejemplo **/
+.announcement-line {
+  display: none !important;
 }
 
-@keyframes fadein {
-  0% {
-    opacity: 100;
-  }
-  100% {
-    opacity: 0%;
-  }
+/** Borrar los replys del chat hacia otras personas (menciones) **/
+/**.reply-line--mentioned {
+  display: none !important;
+} **/
+
+/** Borra las badges de los usuarios de chat **/
+.chat-badge {
+  display: none !important;
+}
+
+/** Elimina las notificaciones de suscripción y suscripción de Twitch **/
+.user-notice-line {
+  display: none !important;
 }
