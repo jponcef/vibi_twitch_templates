@@ -5,7 +5,7 @@
 .simplebar-scroll-content {
   font-family: "Gorditas";
   font-weight: 700;
-  font-size: 30px;
+  font-size: 45px;
   line-height: 1.6;
 }
 
@@ -14,7 +14,7 @@
 .text-fragment:not(.chat-line__message--emote-button) {
   font-family: "Kurale";
   font-weight: 700;
-  font-size: 30px;
+  font-size: 45px;
   line-height: 1.6;
 }
 
@@ -93,5 +93,9 @@ body,
 
 /** Elimina las notificaciones de suscripción y suscripción de Twitch **/
 .user-notice-line {
+  display: none !important;
+}
+
+.community-highlight {
   display: none !important;
 }
